@@ -8,6 +8,6 @@ phaseBoost: 0
 phaseRangeBoost: 0
 healPercent: 3
 requirements: [
-	snow/340
+	snow/780
 ]
 category: effect
