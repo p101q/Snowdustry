@@ -1,0 +1,111 @@
+name: dagger
+description: Dagger, but snowy! This little snowthrower on legs will give you a lot of trouble in the beginning...
+type: mech
+canBoost: true
+boostMultiplier: 1.45
+speed: 0.7
+hitSize: 7
+buildSpeed: 0.5
+health: 50
+mineTier: 1
+mineSpeed: 6.5
+miningRange: 28
+ammoType: snow
+ammoCapacity: 30
+weapons: [
+{
+	name: snowdagger-weapon
+	reload: 30
+	recoil: 0.5
+	inaccuracy: 5
+	shootY: 5
+	x: 0
+	y: 0
+	mirror: false
+	top: false
+	shootSound: snowball-sound
+	bullet: {
+		type: BasicBulletType
+		width: 14
+		height: 14
+		frontColor: ffffff
+		backColor: c2bffbf
+		lightColor: ffffff
+		shrinkY: 0.1
+		speed: 3
+		damage: 1
+		recoil: 0.6
+		spin: 1080
+		lifetime: 43
+		despawnEffect: {
+			type: MultiEffect
+			effects: [
+			{
+				type: WaveEffect
+				lifetime: 15
+				sizeFrom: 0
+				sizeTo: 8
+				strokeFrom: 2
+				strokeTo: 0
+				colorFrom: e9ebff
+				colorTo: c2bffbf
+			}
+			{
+				type: ParticleEffect
+				colorFrom: e9ebff
+				lifetime: 20
+				colorTo: c2bffbf
+				particles: 5
+				cone: 360
+				length: 25
+				baseLength: 0
+				sizeFrom: 3
+				sizeTo: 0
+			}
+			]
+		}
+		hitEffect: {
+			type: MultiEffect
+			effects: [
+			{
+				type: WaveEffect
+				lifetime: 15
+				sizeFrom: 0
+				sizeTo: 8
+				strokeFrom: 2
+				strokeTo: 0
+				colorFrom: e9ebff
+				colorTo: c2bffbf
+			}
+			{
+				type: ParticleEffect
+				colorFrom: e9ebff
+				lifetime: 20
+				colorTo: c2bffbf
+				particles: 5
+				cone: 360
+				length: 25
+				baseLength: 0
+				sizeFrom: 3
+				sizeTo: 0
+			}
+			]
+		}
+		shootEffect: {
+			type: ParticleEffect
+			colorFrom: e9ebff
+			colorTo: c2bffbf
+			particles: 6
+			lifetime: 30
+			cone: 30
+			length: 20
+			baseLength: 0
+			sizeFrom: 3
+			sizeTo: 0
+			clip: 20
+		}
+		smokeEffect: none
+		sprite: snow-snowball
+	}
+}
+]

@@ -1,0 +1,210 @@
+name: Snow Fortress
+description: A real SNOW FORTRESS! The strongest snow unit. Ideal for attacking, defending, and building.
+type: mech
+canBoost: true
+boostMultiplier: 1.45
+speed: 0.6
+hitSize: 14
+buildSpeed: 1
+rotateSpeed: 3
+health: 125
+mineTier: 1
+mineSpeed: 8
+miningRange: 28
+mechFrontSway: 0.55
+engineOffset: 8
+engineSize: 4
+ammoType: snow
+ammoCapacity: 120
+weapons: [
+{
+	reload: 60
+	inaccuracy: 0
+	shootY: 4
+	x: 0
+	y: 0
+	mirror: false
+	shootSound: bigsnowball-sound
+	bullet: {
+		type: BasicBulletType
+		width: 20
+		height: 20
+		frontColor: ffffff
+		backColor: c2bffbf
+		lightColor: ffffff
+		shrinkY: 0.1
+		speed: 4
+		damage: 3
+		recoil: 0.6
+		spin: 1080
+		status: freezing
+		statusDuration: 180
+		lifetime: 50
+		despawnEffect: {
+			type: MultiEffect
+			effects: [
+			{
+				type: WaveEffect
+				lifetime: 30
+				sizeFrom: 0
+				sizeTo: 16
+				strokeFrom: 2.5
+				strokeTo: 0
+				colorFrom: e9ebff
+				colorTo: c2bffbf
+			}
+			{
+				type: ParticleEffect
+				colorFrom: e9ebff
+				lifetime: 40
+				colorTo: c2bffbf
+				particles: 12
+				cone: 360
+				length: 50
+				baseLength: 0
+				sizeFrom: 4
+				sizeTo: 0
+			}
+			]
+		}
+		hitEffect: {
+			type: MultiEffect
+			effects: [
+			{
+				type: WaveEffect
+				lifetime: 30
+				sizeFrom: 0
+				sizeTo: 16
+				strokeFrom: 2.5
+				strokeTo: 0
+				colorFrom: e9ebff
+				colorTo: c2bffbf
+			}
+			{
+				type: ParticleEffect
+				colorFrom: e9ebff
+				lifetime: 40
+				colorTo: c2bffbf
+				particles: 12
+				cone: 360
+				length: 50
+				baseLength: 0
+				sizeFrom: 4
+				sizeTo: 0
+			}
+			]
+		}
+		shootEffect: {
+			type: ParticleEffect
+			colorFrom: e9ebff
+			colorTo: c2bffbf
+			particles: 9
+			lifetime: 40
+			cone: 25
+			length: 40
+			baseLength: 0
+			sizeFrom: 4
+			sizeTo: 0
+			clip: 40
+		}
+		smokeEffect: none
+		sprite: snow-snowball
+	}
+}
+{
+	name: snowfortress-weapon
+	reload: 22
+	recoil: 1
+	inaccuracy: 5
+	shootY: 6
+	shootX: 8
+	x: 0
+	y: 0
+	mirror: true
+	top: false
+	shootSound: snowball-sound
+	bullet: {
+		type: BasicBulletType
+		width: 14
+		height: 14
+		frontColor: ffffff
+		backColor: c2bffbf
+		lightColor: ffffff
+		shrinkY: 0.1
+		speed: 2.8
+		damage: 1
+		recoil: 0.27
+		spin: 1080
+		lifetime: 50
+		despawnEffect: {
+			type: MultiEffect
+			effects: [
+			{
+				type: WaveEffect
+				lifetime: 15
+				sizeFrom: 0
+				sizeTo: 8
+				strokeFrom: 2
+				strokeTo: 0
+				colorFrom: e9ebff
+				colorTo: c2bffbf
+			}
+			{
+				type: ParticleEffect
+				colorFrom: e9ebff
+				lifetime: 20
+				colorTo: c2bffbf
+				particles: 5
+				cone: 360
+				length: 25
+				baseLength: 0
+				sizeFrom: 3
+				sizeTo: 0
+			}
+			]
+		}
+		hitEffect: {
+			type: MultiEffect
+			effects: [
+			{
+				type: WaveEffect
+				lifetime: 15
+				sizeFrom: 0
+				sizeTo: 8
+				strokeFrom: 2
+				strokeTo: 0
+				colorFrom: e9ebff
+				colorTo: c2bffbf
+			}
+			{
+				type: ParticleEffect
+				colorFrom: e9ebff
+				lifetime: 20
+				colorTo: c2bffbf
+				particles: 5
+				cone: 360
+				length: 25
+				baseLength: 0
+				sizeFrom: 3
+				sizeTo: 0
+			}
+			]
+		}
+		shootEffect: {
+			type: ParticleEffect
+			colorFrom: e9ebff
+			colorTo: c2bffbf
+			particles: 6
+			lifetime: 30
+			cone: 30
+			length: 20
+			baseLength: 0
+			sizeFrom: 3
+			sizeTo: 0
+			clip: 20
+		}
+		smokeEffect: none
+		sprite: snow-snowball
+	}
+}
+]

@@ -1,0 +1,10 @@
+name: Snow Pile
+description: A pile for storing your snow
+type: StorageBlock
+requirements: [
+	snow/500
+]
+size: 3
+itemCapacity: 2000
+health: 200
+category: effect

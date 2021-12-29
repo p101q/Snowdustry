@@ -1,0 +1,11 @@
+name: Gift
+description: New Year's gift with a surprise!
+type: Wall
+health: 50
+size: 1
+variants: 4
+buildVisibility: sandboxOnly
+category: defense
+requirements: [
+	surge-alloy/6
+]

@@ -1,0 +1,13 @@
+name: Healing Pile
+description: A small pile of snow capable of regenerating nearby structures. Can work for 5 seconds if not disturbed!
+health: 300
+size: 1
+reload: 30
+range: 6
+phaseBoost: 0
+phaseRangeBoost: 0
+healPercent: 3
+requirements: [
+	snow/340
+]
+category: effect

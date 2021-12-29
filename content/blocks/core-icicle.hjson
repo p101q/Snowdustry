@@ -1,0 +1,14 @@
+name: Snow Fort "Icicle"
+description: The little fort "Icicle", the snow analog of the core "Shard", but twice as much fun!
+type: CoreBlock
+requirements:[
+	snow/9000
+]
+alwaysUnlocked: true
+unitType: snow-dagger
+health: 1000
+itemCapacity: 22500
+size: 3
+category: effect
+
+unitCapModifier: 8

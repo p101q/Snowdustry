@@ -1,0 +1,114 @@
+name: Snow Mace
+description: Mace, but a snowy! Stronger and more fun than the snow dagger. Let's go to battle!
+type: mech
+canBoost: true
+boostMultiplier: 1.45
+speed: 0.65
+hitSize: 10
+buildSpeed: 0.75
+health: 80
+mineTier: 1
+mineSpeed: 7
+miningRange: 28
+engineOffset: 6
+engineSize: 2.5
+ammoType: snow
+ammoCapacity: 75
+weapons: [
+{
+	name: snowmace-weapon
+	reload: 22
+	recoil: 1
+	inaccuracy: 5
+	shootY: 6
+	shootX: 6
+	x: 0
+	y: 0
+	mirror: true
+	top: false
+	shootSound: snowball-sound
+	bullet: {
+		type: BasicBulletType
+		width: 14
+		height: 14
+		frontColor: ffffff
+		backColor: c2bffbf
+		lightColor: ffffff
+		shrinkY: 0.1
+		speed: 2.8
+		damage: 1
+		recoil: 0.35
+		spin: 1080
+		lifetime: 50
+		despawnEffect: {
+			type: MultiEffect
+			effects: [
+			{
+				type: WaveEffect
+				lifetime: 15
+				sizeFrom: 0
+				sizeTo: 8
+				strokeFrom: 2
+				strokeTo: 0
+				colorFrom: e9ebff
+				colorTo: c2bffbf
+			}
+			{
+				type: ParticleEffect
+				colorFrom: e9ebff
+				lifetime: 20
+				colorTo: c2bffbf
+				particles: 5
+				cone: 360
+				length: 25
+				baseLength: 0
+				sizeFrom: 3
+				sizeTo: 0
+			}
+			]
+		}
+		hitEffect: {
+			type: MultiEffect
+			effects: [
+			{
+				type: WaveEffect
+				lifetime: 15
+				sizeFrom: 0
+				sizeTo: 8
+				strokeFrom: 2
+				strokeTo: 0
+				colorFrom: e9ebff
+				colorTo: c2bffbf
+			}
+			{
+				type: ParticleEffect
+				colorFrom: e9ebff
+				lifetime: 20
+				colorTo: c2bffbf
+				particles: 5
+				cone: 360
+				length: 25
+				baseLength: 0
+				sizeFrom: 3
+				sizeTo: 0
+			}
+			]
+		}
+		shootEffect: {
+			type: ParticleEffect
+			colorFrom: e9ebff
+			colorTo: c2bffbf
+			particles: 6
+			lifetime: 30
+			cone: 30
+			length: 20
+			baseLength: 0
+			sizeFrom: 3
+			sizeTo: 0
+			clip: 20
+		}
+		smokeEffect: none
+		sprite: snow-snowball
+	}
+}
+]

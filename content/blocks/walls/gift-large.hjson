@@ -1,0 +1,11 @@
+name: Large Gift
+description: New Year's large gift with a HUGE surprise!
+type: Wall
+health: 200
+size: 2
+variants: 4
+buildVisibility: sandboxOnly
+category: defense
+requirements: [
+	surge-alloy/24
+]
