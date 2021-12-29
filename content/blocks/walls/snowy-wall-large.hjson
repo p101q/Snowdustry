@@ -1,0 +1,10 @@
+name: Large Snow Wall
+description: A big snow wall that can well protect you and your fort from a large number of enemy snowballs
+type: Wall
+health: 145
+category: defense
+size: 2
+buildCostMultiplier: 4
+requirements: [
+	snow/840
+]

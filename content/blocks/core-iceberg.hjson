@@ -1,5 +1,5 @@
 name: Snow Fort "Iceberg"
-description: The little fort "Iceberg", the snow analog of the core "Nucleus", but twice as much fun!
+description: The large fort "Iceberg", the snow analog of the core "Nucleus", but twice as much fun!
 type: CoreBlock
 requirements:[
 	snow/90000

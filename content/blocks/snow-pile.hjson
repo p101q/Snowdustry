@@ -4,6 +4,7 @@ type: StorageBlock
 requirements: [
 	snow/500
 ]
+buildCostMultiplier: 6
 size: 3
 itemCapacity: 2000
 health: 200

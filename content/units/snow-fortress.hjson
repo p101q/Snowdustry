@@ -2,7 +2,7 @@ name: Snow Fortress
 description: A real SNOW FORTRESS! The strongest snow unit. Ideal for attacking, defending, and building.
 type: mech
 canBoost: true
-boostMultiplier: 1.45
+boostMultiplier: 1.55
 speed: 0.6
 hitSize: 14
 buildSpeed: 1

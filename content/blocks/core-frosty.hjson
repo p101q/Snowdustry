@@ -1,5 +1,5 @@
 name: Snow Fort "Frosty"
-description: The little fort "Frosty" the snow analog of the core "Foundation" but twice as much fun!
+description: The fort "Frosty" the snow analog of the core "Foundation" but twice as much fun!
 type: CoreBlock
 requirements:[
 	snow/33000
