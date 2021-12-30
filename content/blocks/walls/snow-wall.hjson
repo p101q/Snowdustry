@@ -1,8 +1,0 @@
-name: Snow Wall
-description: A snow wall that can protect you and your fort from enemy snowballs
-type: Wall
-health: 30
-category: defense
-requirements: [
-	snow/180
-]
