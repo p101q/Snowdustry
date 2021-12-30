@@ -7,7 +7,7 @@ requirements:[
 alwaysUnlocked: true
 unitType: snow-dagger
 health: 1000
-itemCapacity: 12000
+itemCapacity: 7000
 size: 3
 category: effect
 
