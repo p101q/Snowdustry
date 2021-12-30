@@ -2,7 +2,7 @@ name: dagger
 description: Dagger, but snowy! This little snowthrower on legs will give you a lot of trouble in the beginning...
 type: mech
 canBoost: true
-boostMultiplier: 1.45
+boostMultiplier: 2
 speed: 0.7
 hitSize: 7
 buildSpeed: 0.5

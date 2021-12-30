@@ -2,7 +2,7 @@ name: Snow Mace
 description: Mace, but snowy! Stronger and more fun than the snow dagger. Let's go to battle!
 type: mech
 canBoost: true
-boostMultiplier: 1.5
+boostMultiplier: 2.2
 speed: 0.65
 hitSize: 10
 buildSpeed: 0.75

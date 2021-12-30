@@ -7,5 +7,5 @@ variants: 4
 buildVisibility: sandboxOnly
 category: defense
 requirements: [
-	surge-alloy/6
+	snow/6
 ]
