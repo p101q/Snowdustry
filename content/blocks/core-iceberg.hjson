@@ -2,12 +2,12 @@ name: Snow Fort "Iceberg"
 description: The large fort "Iceberg", the snow analog of the core "Nucleus", but twice as much fun!
 type: CoreBlock
 requirements:[
-	snow/32000
+	snow/20000
 ]
 alwaysUnlocked: true
 unitType: snow-fortress
 health: 3000
-itemCapacity: 50000
+itemCapacity: 25000
 size: 5
 category: effect
 
