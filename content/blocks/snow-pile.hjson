@@ -6,6 +6,6 @@ requirements: [
 ]
 buildCostMultiplier: 6
 size: 3
-itemCapacity: 2000
+itemCapacity: 500
 health: 200
 category: effect
