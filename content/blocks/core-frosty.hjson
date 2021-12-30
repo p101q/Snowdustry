@@ -2,11 +2,11 @@ name: Snow Fort "Frosty"
 description: The fort "Frosty" the snow analog of the core "Foundation" but twice as much fun!
 type: CoreBlock
 requirements:[
-	snow/33000
+	snow/15000
 ]
 unitType: snow-mace
 health: 2000
-itemCapacity: 77500
+itemCapacity: 28000
 size: 4
 category: effect
 
