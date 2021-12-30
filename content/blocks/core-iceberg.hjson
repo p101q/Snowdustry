@@ -7,7 +7,7 @@ requirements:[
 alwaysUnlocked: true
 unitType: snow-fortress
 health: 3000
-itemCapacity: 5000
+itemCapacity: 50000
 size: 5
 category: effect
 
