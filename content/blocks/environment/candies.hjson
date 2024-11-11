@@ -1,4 +1,5 @@
 name: Candies
 type: OverlayFloor
 variants: 3
-color: bf92f9
+hasColor: true
+mapColor: bf92f9

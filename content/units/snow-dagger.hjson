@@ -9,7 +9,7 @@ buildSpeed: 0.5
 health: 50
 mineTier: 1
 mineSpeed: 6.5
-miningRange: 28
+mineRange: 28
 ammoType: snow
 ammoCapacity: 30
 weapons: [

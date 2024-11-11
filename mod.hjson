@@ -1,6 +1,6 @@
 name: snow
-displayName: "[#e9ebff]Snowy[#c2bffb]dustry[]"
-author: "[#eab678]Mindustry [#d4806b][RU] [#b0b9c0]inc.[]"
-description: "[#ffffff]A fun mod for a fun New Year's event[]"
-version: "[#c2bffb]1[]"
-minGameVersion: "135"
+displayName: "Snowydustry"
+author: "Mindustry [RU] inc."
+description: "A fun mod for a fun New Year's event"
+version: "2.0"
+minGameVersion: "146"

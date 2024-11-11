@@ -3,7 +3,8 @@ type: floor
 speedMultiplier: 0.85
 variants: 3
 albedo: 0.8
-color: b2c9af
+hasColor: true
+mapColor: b2c9af
 attributes: {
 	water: 0.15 
 }

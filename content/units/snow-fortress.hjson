@@ -10,7 +10,7 @@ rotateSpeed: 3
 health: 125
 mineTier: 1
 mineSpeed: 8
-miningRange: 28
+mineRange: 28
 mechFrontSway: 0.55
 engineOffset: 8
 engineSize: 4

@@ -1,6 +1,5 @@
 name: Snow
 description: Soft, sticky, cold
-type: Item
 hardness: 1
 cost: 0.2
 color: FFFFFF

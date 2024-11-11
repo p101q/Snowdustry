@@ -9,7 +9,7 @@ buildSpeed: 0.75
 health: 80
 mineTier: 1
 mineSpeed: 7
-miningRange: 28
+mineRange: 28
 engineOffset: 6
 engineSize: 2.5
 ammoType: snow
